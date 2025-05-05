@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(háttér.png);
+    background-size: cover;
+    color: rgb(187, 165, 61);
+}
+
+header {
+    background-color: rgba(42, 47, 47, 0.8);
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tartalom {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(42, 47, 47, 0.8);
+    border-radius: 15px;
+}
+
+
+footer {
+    background-color: rgba(42, 47, 47, 0.8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 576px) {
+    .tartalom {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .sáv .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sáv .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.nav-link{
+    display: block;
+    color: rgb(187, 165, 61);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: rgba(36, 32, 32, 0.8);
+    color: rgb(187, 165, 61);
+    border-radius: 10%;
+}

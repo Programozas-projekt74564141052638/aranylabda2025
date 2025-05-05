@@ -1,0 +1,43 @@
+body{
+  background-image: url(háttér.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  text-align: center;
+  color: rgb(187, 165, 61);
+  background-color: rgba(42, 47, 47, 0.8);
+  margin: 50px 250px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+
+.tartalom{
+  background-color: rgba(42, 47, 47, 0.8);
+  margin: 10px 250px;
+  color: rgb(187, 165, 61);
+  padding: 30px;
+  padding-bottom: 50px;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+.valami{
+  background-color: rgba(42, 47, 47, 0.8);
+  margin: 10px 250px;
+  color: rgb(187, 165, 61);
+}
+
+@media (max-width: 600px) {
+  header,
+  .tartalom,
+  .valami {
+      margin: 10px 10px;
+  }
+
+  p {
+      font-size: 1rem;
+      padding: 0 1rem;
+  }
+}
